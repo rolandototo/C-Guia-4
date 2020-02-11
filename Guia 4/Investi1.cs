@@ -10,35 +10,70 @@ namespace Guia_4
     {
         public Investi1()
         {
-            //Dise;ar un progrma que nos permita saber cual es el mayor entre 2 numeros
+            //Dise;ar un progrma que nos permita saber cual es el mayor entre 3 numeros
 
-            Console.WriteLine("Dise;ar un progrma que nos permita saber cual es el mayor entre 2 numeros");
+            Console.WriteLine("Dise;ar un progrma que nos permita saber cual es el mayor entre 3 numeros");
             Console.WriteLine("\n");
 
-            Console.WriteLine("El mayor entre 2 numeros");
+            Console.WriteLine("El mayor entre 3 numeros");
             Console.WriteLine("\n");
 
-            int a, b;
+            double a, b, c;
 
             Console.WriteLine("Escribe el primer numero");
-            a = int.Parse(Console.ReadLine());
+            a = double.Parse(Console.ReadLine());
 
 
             Console.WriteLine("Escribe el segundo numero");
-            b = int.Parse(Console.ReadLine());
+            b = double.Parse(Console.ReadLine());
+            
 
-            if (a > b)
+            Console.WriteLine("Escribe el tercer numero");
+            c = double.Parse(Console.ReadLine());
+
+            if (a > b && a > c)
             {
-                Console.WriteLine("El numero {0} es mayor que {1}", a, b);
+                Console.WriteLine("El numero {0} es el mayor",a);
+                if (b > c)
+                {
+                    Console.WriteLine("El numero {0} es el de enmedio", b);
+                    Console.WriteLine("El numero {0} es el menor", c);
+                }
+                else 
+                {
+                    Console.WriteLine("El numero {0} es el de enmedio", c);
+                    Console.WriteLine("El numero {0} es el menor", b);
+                }
             }
-            else if (a == b)
+            else if (b > a && b > c)
             {
-                Console.WriteLine("El numero {0} es igual que {1}", a, b);
+                Console.WriteLine("El numero {0} es el mayor",b);
+                if (a > c)
+                {
+                    Console.WriteLine("El numero {0} es el de enmedio", a);
+                    Console.WriteLine("El numero {0} es el menor", c);
+                }
+                else 
+                {
+                    Console.WriteLine("El numero {0} es el de enmedio", c);
+                    Console.WriteLine("El numero {0} es el menor", a);
+                }
             }
-            else
+            else if (c > a && c > b)
             {
-                Console.WriteLine("El numero {1} es mayor que {0}", a, b);
+                Console.WriteLine("El numero {0} es el mayor",c);
+                if (b > a)
+                {
+                  Console.WriteLine("El numero {0} es el de enmedio", b);
+                  Console.WriteLine("El numero {0} es el menor", a);
+                }
+                else 
+                {
+                    Console.WriteLine("El numero {0} es el de enmedio", a);
+                    Console.WriteLine("El numero {0} es el menor", b);
+                }
             }
+            
             Console.WriteLine("\n");
             Console.WriteLine("Apreta cualquier tecla para cerrar");
             Console.ReadKey();

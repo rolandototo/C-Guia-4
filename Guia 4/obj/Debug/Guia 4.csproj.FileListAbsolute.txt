@@ -10,3 +10,9 @@ D:\RR\Guia 4\Guia 4\bin\Debug\Guia 4.pdb
 D:\RR\Guia 4\Guia 4\obj\Debug\Guia 4.csprojAssemblyReference.cache
 D:\RR\Guia 4\Guia 4\obj\Debug\Guia 4.exe
 D:\RR\Guia 4\Guia 4\obj\Debug\Guia 4.pdb
+C:\Users\rolan\Desktop\RR\Guia 4\Guia 4\bin\Debug\Guia 4.exe.config
+C:\Users\rolan\Desktop\RR\Guia 4\Guia 4\bin\Debug\Guia 4.exe
+C:\Users\rolan\Desktop\RR\Guia 4\Guia 4\bin\Debug\Guia 4.pdb
+C:\Users\rolan\Desktop\RR\Guia 4\Guia 4\obj\Debug\Guia 4.csprojAssemblyReference.cache
+C:\Users\rolan\Desktop\RR\Guia 4\Guia 4\obj\Debug\Guia 4.exe
+C:\Users\rolan\Desktop\RR\Guia 4\Guia 4\obj\Debug\Guia 4.pdb

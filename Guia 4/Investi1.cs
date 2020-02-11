@@ -8,6 +8,6 @@ namespace Guia_4
 {
     class Investi1
     {
-
+        
     }
 }

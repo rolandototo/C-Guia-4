@@ -61,7 +61,7 @@ namespace Guia_4
                 opval = int.TryParse(op, out opcion);
                 if (opval == false)
                 {
-                    Console.WriteLine("INGRESE UN DATO VALIDO (entre el 1 al 15)");
+                    Console.WriteLine("INGRESE UN DATO VALIDO (un numero entre el 1 al 15)");
                 }
             }
  

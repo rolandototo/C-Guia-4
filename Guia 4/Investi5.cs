@@ -46,7 +46,7 @@ namespace Guia_4
                 Console.WriteLine("El numero {0} es par", a);
                 if (impar2 == 0)
                 {
-                    Console.WriteLine("El numero {0} es impar", b)
+                    Console.WriteLine("El numero {0} es impar", b);
                 }
 
             }
